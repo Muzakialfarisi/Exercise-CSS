@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Roboto Slab", serif;
+            border: 1px solid black;
+        }
+
+        header {
+            background: rgb(0, 102, 204);
+            background: linear-gradient(90deg,
+                    rgba(0, 102, 204, 1)0%,
+                    rgba(0, 204, 102, 1)50%,
+                    rgba(204, 204, 0, 1)100%);
+            padding: 20px;
+        }
+
+        .headerContainer {
+            display: flex;
+            justify-content: center;
+        }
+
+        .headerImg {
+            padding-right: 10px;
+        }
+
+        .Picture {
+            height: 200px;
+            width: 200px;
+            border-radius: 100%;
+            border: 5px solid white;
+            transition-duration: 0.5s;
+        }
+
+        .Picture:hover {
+            transform: scale(1.1);
+        }
+
+        .nameProfile {
+            font-size: 2.8rem;
+            color: white;
+            font-weight: 600;
+        }
+
+        .tittleProfile {
+            color: white;
+            font-size: 1.4rem;
+            font-weight: 300;
+        }
+
+        .headerButton {
+            display: flex;
+        }
+
+        button {
+            border: 3px solid white;
+            background: linear-gradient(90deg,
+                    rgba(0, 102, 204, 1)0%,
+                    rgba(0, 204, 102, 1)50%,
+                    rgba(204, 204, 0, 1)100%);
+            margin: 15px 20px 0 0;
+            padding: 10px 30px;
+            color: white;
+            border-radius: 40px;
+            cursor: pointer;
+            font-size: 1.2rem;
+            font-family: "Roboto Slab", serif;
+            font-weight: 400;
+            transition-duration: 0.5s;
+        }
+
+        button:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="headerContainer">
+            <div class="headerImg">
+                <img class="Picture"
+                    src="james60_a_malay_professional_women_model_wear_hijab_for_a_passp_372dd577-fa1f-452b-adbd-1b2ad7cef82e.png">
+            </div>
+            <div class="HeaderdetailProfile">
+                <div class="nameProfile">Carlos Sany</div>
+                <div class="tittleProfile">Graphic Designer & Web Developer</div>
+                <div>
+                    <button>Download CV</button>
+                    <button>Hire Me</button>
+                </div>
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>
